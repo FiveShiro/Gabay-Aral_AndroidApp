@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2.Ga">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:id="@+id/ga"
+            android:layout_width="match_parent"
+            android:layout_height="585dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginBottom="137dp"
+            android:src="@drawable/ga"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_next_ga"
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="44dp"
+            android:text="SUNOD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.854"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ga"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_balik_ga"
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="44dp"
+            android:text="BUMALIK"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.162"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ga"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/speaker_ga"
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:background="@drawable/speaker"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_next_ga"
+            app:layout_constraintHorizontal_bias="0.442"
+            app:layout_constraintStart_toEndOf="@+id/button_balik_ga"
+            app:layout_constraintTop_toBottomOf="@+id/ga"
+            app:layout_constraintVertical_bias="0.555"
+            tools:text="T" />
+
+        <TextView
+            android:id="@+id/txtGA"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Ga"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtGE"
+            app:layout_constraintHorizontal_bias="0.671"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ga" />
+
+        <TextView
+            android:id="@+id/txtGE"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Ge"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtGI"
+            app:layout_constraintHorizontal_bias="0.812"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ga" />
+
+        <TextView
+            android:id="@+id/txtGI"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Gi"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtGO"
+            app:layout_constraintHorizontal_bias="0.881"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ga" />
+
+        <TextView
+            android:id="@+id/txtGO"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Go"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtGU"
+            app:layout_constraintHorizontal_bias="0.903"
+            app:layout_constraintStart_toStartOf="@+id/ga"
+            app:layout_constraintTop_toTopOf="@+id/ga" />
+
+        <TextView
+            android:id="@+id/txtGU"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Gu"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.846"
+            app:layout_constraintStart_toStartOf="@+id/ga"
+            app:layout_constraintTop_toTopOf="@+id/ga" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

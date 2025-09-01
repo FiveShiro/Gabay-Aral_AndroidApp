@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.GPage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:id="@+id/dyi"
+            android:layout_width="match_parent"
+            android:layout_height="585dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="137dp"
+            android:src="@drawable/g"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_next_dyi"
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="44dp"
+            android:text="SUNOD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.854"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dyi"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_balik_dyi"
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="44dp"
+            android:text="BUMALIK"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.162"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dyi"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/speaker_dyi"
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:background="@drawable/speaker"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_next_dyi"
+            app:layout_constraintHorizontal_bias="0.442"
+            app:layout_constraintStart_toEndOf="@+id/button_balik_dyi"
+            app:layout_constraintTop_toBottomOf="@+id/dyi"
+            app:layout_constraintVertical_bias="0.555"
+            tools:text="T" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

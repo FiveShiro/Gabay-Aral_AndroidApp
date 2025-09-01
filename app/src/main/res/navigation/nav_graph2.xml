@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/aeiou2">
+
+    <fragment
+        android:id="@+id/aeiou2"
+        android:name="rc.thesis.learningapp.Fragment2.aeiou"
+        android:label="fragment_aeiou"
+        tools:layout="@layout/fragment_aeiou" >
+        <action
+            android:id="@+id/action_aeiou2_to_ba3"
+            app:destination="@id/ba3" />
+    </fragment>
+    <fragment
+        android:id="@+id/ba3"
+        android:name="rc.thesis.learningapp.Fragment2.Ba"
+        android:label="fragment_ba"
+        tools:layout="@layout/fragment_ba" >
+        <action
+            android:id="@+id/action_ba3_to_aeiou2"
+            app:destination="@id/aeiou2" />
+        <action
+            android:id="@+id/action_ba3_to_ka2"
+            app:destination="@id/ka2" />
+    </fragment>
+    <fragment
+        android:id="@+id/ka2"
+        android:name="rc.thesis.learningapp.Fragment2.Ka"
+        android:label="fragment_ka"
+        tools:layout="@layout/fragment_ka" >
+        <action
+            android:id="@+id/action_ka2_to_ba3"
+            app:destination="@id/ba3" />
+        <action
+            android:id="@+id/action_ka2_to_da2"
+            app:destination="@id/da2" />
+    </fragment>
+    <fragment
+        android:id="@+id/da2"
+        android:name="rc.thesis.learningapp.Fragment2.Da"
+        android:label="fragment_da"
+        tools:layout="@layout/fragment_da" >
+        <action
+            android:id="@+id/action_da2_to_ka2"
+            app:destination="@id/ka2" />
+        <action
+            android:id="@+id/action_da2_to_ga2"
+            app:destination="@id/ga2" />
+    </fragment>
+    <fragment
+        android:id="@+id/ga2"
+        android:name="rc.thesis.learningapp.Fragment2.Ga"
+        android:label="fragment_ga"
+        tools:layout="@layout/fragment_ga" >
+        <action
+            android:id="@+id/action_ga2_to_da2"
+            app:destination="@id/da2" />
+        <action
+            android:id="@+id/action_ga2_to_ha2"
+            app:destination="@id/ha2" />
+    </fragment>
+    <fragment
+        android:id="@+id/ha2"
+        android:name="rc.thesis.learningapp.Fragment2.Ha"
+        android:label="fragment_ha"
+        tools:layout="@layout/fragment_ha" >
+        <action
+            android:id="@+id/action_ha2_to_ga2"
+            app:destination="@id/ga2" />
+        <action
+            android:id="@+id/action_ha2_to_la2"
+            app:destination="@id/la2" />
+    </fragment>
+    <fragment
+        android:id="@+id/la2"
+        android:name="rc.thesis.learningapp.Fragment2.La"
+        android:label="fragment_la"
+        tools:layout="@layout/fragment_la" >
+        <action
+            android:id="@+id/action_la2_to_ha2"
+            app:destination="@id/ha2" />
+        <action
+            android:id="@+id/action_la2_to_ma2"
+            app:destination="@id/ma2" />
+    </fragment>
+    <fragment
+        android:id="@+id/ma2"
+        android:name="rc.thesis.learningapp.Fragment2.Ma"
+        android:label="fragment_ma"
+        tools:layout="@layout/fragment_ma" >
+        <action
+            android:id="@+id/action_ma2_to_la2"
+            app:destination="@id/la2" />
+        <action
+            android:id="@+id/action_ma2_to_na2"
+            app:destination="@id/na2" />
+    </fragment>
+    <fragment
+        android:id="@+id/na2"
+        android:name="rc.thesis.learningapp.Fragment2.Na"
+        android:label="fragment_na"
+        tools:layout="@layout/fragment_na" >
+        <action
+            android:id="@+id/action_na2_to_ma2"
+            app:destination="@id/ma2" />
+        <action
+            android:id="@+id/action_na2_to_nga2"
+            app:destination="@id/nga2" />
+    </fragment>
+    <fragment
+        android:id="@+id/nga2"
+        android:name="rc.thesis.learningapp.Fragment2.Nga"
+        android:label="fragment_nga"
+        tools:layout="@layout/fragment_nga" >
+        <action
+            android:id="@+id/action_nga2_to_na2"
+            app:destination="@id/na2" />
+        <action
+            android:id="@+id/action_nga2_to_pa2"
+            app:destination="@id/pa2" />
+    </fragment>
+    <fragment
+        android:id="@+id/pa2"
+        android:name="rc.thesis.learningapp.Fragment2.Pa"
+        android:label="fragment_pa"
+        tools:layout="@layout/fragment_pa" >
+        <action
+            android:id="@+id/action_pa2_to_nga2"
+            app:destination="@id/nga2" />
+        <action
+            android:id="@+id/action_pa2_to_ra2"
+            app:destination="@id/ra2" />
+    </fragment>
+    <fragment
+        android:id="@+id/ra2"
+        android:name="rc.thesis.learningapp.Fragment2.Ra"
+        android:label="fragment_ra"
+        tools:layout="@layout/fragment_ra" >
+        <action
+            android:id="@+id/action_ra2_to_pa2"
+            app:destination="@id/pa2" />
+        <action
+            android:id="@+id/action_ra2_to_sa2"
+            app:destination="@id/sa2" />
+    </fragment>
+    <fragment
+        android:id="@+id/sa2"
+        android:name="rc.thesis.learningapp.Fragment2.Sa"
+        android:label="fragment_sa"
+        tools:layout="@layout/fragment_sa" >
+        <action
+            android:id="@+id/action_sa2_to_ra2"
+            app:destination="@id/ra2" />
+        <action
+            android:id="@+id/action_sa2_to_ta2"
+            app:destination="@id/ta2" />
+    </fragment>
+    <fragment
+        android:id="@+id/ta2"
+        android:name="rc.thesis.learningapp.Fragment2.Ta"
+        android:label="fragment_ta"
+        tools:layout="@layout/fragment_ta" >
+        <action
+            android:id="@+id/action_ta2_to_sa2"
+            app:destination="@id/sa2" />
+        <action
+            android:id="@+id/action_ta2_to_wa2"
+            app:destination="@id/wa2" />
+    </fragment>
+    <fragment
+        android:id="@+id/wa2"
+        android:name="rc.thesis.learningapp.Fragment2.Wa"
+        android:label="fragment_wa"
+        tools:layout="@layout/fragment_wa" >
+        <action
+            android:id="@+id/action_wa2_to_ta2"
+            app:destination="@id/ta2" />
+        <action
+            android:id="@+id/action_wa2_to_ya2"
+            app:destination="@id/ya2" />
+    </fragment>
+    <fragment
+        android:id="@+id/ya2"
+        android:name="rc.thesis.learningapp.Fragment2.Ya"
+        android:label="fragment_ya"
+        tools:layout="@layout/fragment_ya" >
+        <action
+            android:id="@+id/action_ya2_to_wa2"
+            app:destination="@id/wa2" />
+    </fragment>
+</navigation>

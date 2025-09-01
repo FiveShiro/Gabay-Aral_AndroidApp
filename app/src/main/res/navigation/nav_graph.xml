@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/APage">
+    <fragment
+        android:id="@+id/APage"
+        android:name="rc.thesis.learningapp.Fragment.APage"
+        android:label="fragment_a_page"
+        tools:layout="@layout/fragment_a_page" >
+        <action
+            android:id="@+id/action_APage_to_BPage3"
+            app:destination="@id/BPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/BPage"
+        android:name="rc.thesis.learningapp.Fragment.BPage"
+        android:label="fragment_b_page"
+        tools:layout="@layout/fragment_b_page" >
+        <action
+            android:id="@+id/action_BPage_to_APage"
+            app:destination="@id/APage" />
+        <action
+            android:id="@+id/action_BPage_to_CPage"
+            app:destination="@id/CPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/CPage"
+        android:name="rc.thesis.learningapp.Fragment.CPage"
+        android:label="fragment_c_page"
+        tools:layout="@layout/fragment_c_page" >
+        <action
+            android:id="@+id/action_CPage_to_BPage"
+            app:destination="@id/BPage" />
+        <action
+            android:id="@+id/action_CPage_to_DPage"
+            app:destination="@id/DPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/DPage"
+        android:name="rc.thesis.learningapp.Fragment.DPage"
+        android:label="fragment_d_page"
+        tools:layout="@layout/fragment_d_page" >
+        <action
+            android:id="@+id/action_DPage_to_CPage"
+            app:destination="@id/CPage" />
+        <action
+            android:id="@+id/action_DPage_to_EPage"
+            app:destination="@id/EPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/EPage"
+        android:name="rc.thesis.learningapp.Fragment.EPage"
+        android:label="fragment_e_page"
+        tools:layout="@layout/fragment_e_page" >
+        <action
+            android:id="@+id/action_EPage_to_DPage"
+            app:destination="@id/DPage" />
+        <action
+            android:id="@+id/action_EPage_to_FPage"
+            app:destination="@id/FPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/FPage"
+        android:name="rc.thesis.learningapp.Fragment.FPage"
+        android:label="fragment_f_page"
+        tools:layout="@layout/fragment_f_page" >
+        <action
+            android:id="@+id/action_FPage_to_EPage"
+            app:destination="@id/EPage" />
+        <action
+            android:id="@+id/action_FPage_to_GPage"
+            app:destination="@id/GPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/GPage"
+        android:name="rc.thesis.learningapp.Fragment.GPage"
+        android:label="fragment_g_page"
+        tools:layout="@layout/fragment_g_page" >
+        <action
+            android:id="@+id/action_GPage_to_FPage"
+            app:destination="@id/FPage" />
+        <action
+            android:id="@+id/action_GPage_to_HPage"
+            app:destination="@id/HPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/HPage"
+        android:name="rc.thesis.learningapp.Fragment.HPage"
+        android:label="fragment_h_page"
+        tools:layout="@layout/fragment_h_page" >
+        <action
+            android:id="@+id/action_HPage_to_GPage"
+            app:destination="@id/GPage" />
+        <action
+            android:id="@+id/action_HPage_to_IPage"
+            app:destination="@id/IPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/IPage"
+        android:name="rc.thesis.learningapp.Fragment.IPage"
+        android:label="fragment_i_page"
+        tools:layout="@layout/fragment_i_page" >
+        <action
+            android:id="@+id/action_IPage_to_HPage"
+            app:destination="@id/HPage" />
+        <action
+            android:id="@+id/action_IPage_to_JPage"
+            app:destination="@id/JPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/JPage"
+        android:name="rc.thesis.learningapp.Fragment.JPage"
+        android:label="fragment_j_page"
+        tools:layout="@layout/fragment_j_page" >
+        <action
+            android:id="@+id/action_JPage_to_IPage"
+            app:destination="@id/IPage" />
+        <action
+            android:id="@+id/action_JPage_to_KPage"
+            app:destination="@id/KPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/KPage"
+        android:name="rc.thesis.learningapp.Fragment.KPage"
+        android:label="fragment_k_page"
+        tools:layout="@layout/fragment_k_page" >
+        <action
+            android:id="@+id/action_KPage_to_JPage"
+            app:destination="@id/JPage" />
+        <action
+            android:id="@+id/action_KPage_to_LPage"
+            app:destination="@id/LPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/LPage"
+        android:name="rc.thesis.learningapp.Fragment.LPage"
+        android:label="fragment_l_page"
+        tools:layout="@layout/fragment_l_page" >
+        <action
+            android:id="@+id/action_LPage_to_KPage"
+            app:destination="@id/KPage" />
+        <action
+            android:id="@+id/action_LPage_to_MPage"
+            app:destination="@id/MPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/MPage"
+        android:name="rc.thesis.learningapp.Fragment.MPage"
+        android:label="fragment_m_page"
+        tools:layout="@layout/fragment_m_page" >
+        <action
+            android:id="@+id/action_MPage_to_LPage"
+            app:destination="@id/LPage" />
+        <action
+            android:id="@+id/action_MPage_to_NPage"
+            app:destination="@id/NPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/NPage"
+        android:name="rc.thesis.learningapp.Fragment.NPage"
+        android:label="fragment_n_page"
+        tools:layout="@layout/fragment_n_page" >
+        <action
+            android:id="@+id/action_NPage_to_MPage"
+            app:destination="@id/MPage" />
+        <action
+            android:id="@+id/action_NPage_to_nnPage"
+            app:destination="@id/nnPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/nnPage"
+        android:name="rc.thesis.learningapp.Fragment.NnPage"
+        android:label="fragment_nn_page"
+        tools:layout="@layout/fragment_nn_page" >
+        <action
+            android:id="@+id/action_nnPage_to_NPage"
+            app:destination="@id/NPage" />
+        <action
+            android:id="@+id/action_nnPage_to_ngPage"
+            app:destination="@id/ngPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/ngPage"
+        android:name="rc.thesis.learningapp.Fragment.NgPage"
+        android:label="fragment_ng_page"
+        tools:layout="@layout/fragment_ng_page" >
+        <action
+            android:id="@+id/action_ngPage_to_nnPage"
+            app:destination="@id/nnPage" />
+        <action
+            android:id="@+id/action_ngPage_to_OPage"
+            app:destination="@id/OPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/OPage"
+        android:name="rc.thesis.learningapp.Fragment.OPage"
+        android:label="fragment_o_page"
+        tools:layout="@layout/fragment_o_page" >
+        <action
+            android:id="@+id/action_OPage_to_ngPage"
+            app:destination="@id/ngPage" />
+        <action
+            android:id="@+id/action_OPage_to_p_page"
+            app:destination="@id/p_page" />
+    </fragment>
+    <fragment
+        android:id="@+id/p_page"
+        android:name="rc.thesis.learningapp.Fragment.p_page"
+        android:label="fragment_p_page"
+        tools:layout="@layout/fragment_p_page" >
+        <action
+            android:id="@+id/action_p_page_to_OPage"
+            app:destination="@id/OPage" />
+        <action
+            android:id="@+id/action_p_page_to_QPage"
+            app:destination="@id/QPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/QPage"
+        android:name="rc.thesis.learningapp.Fragment.QPage"
+        android:label="fragment_q_page"
+        tools:layout="@layout/fragment_q_page" >
+        <action
+            android:id="@+id/action_QPage_to_p_page"
+            app:destination="@id/p_page" />
+        <action
+            android:id="@+id/action_QPage_to_RPage"
+            app:destination="@id/RPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/RPage"
+        android:name="rc.thesis.learningapp.Fragment.RPage"
+        android:label="fragment_r_page"
+        tools:layout="@layout/fragment_r_page" >
+        <action
+            android:id="@+id/action_RPage_to_QPage"
+            app:destination="@id/QPage" />
+        <action
+            android:id="@+id/action_RPage_to_SPage"
+            app:destination="@id/SPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/SPage"
+        android:name="rc.thesis.learningapp.Fragment.SPage"
+        android:label="fragment_s_page"
+        tools:layout="@layout/fragment_s_page" >
+        <action
+            android:id="@+id/action_SPage_to_RPage"
+            app:destination="@id/RPage" />
+        <action
+            android:id="@+id/action_SPage_to_TPage"
+            app:destination="@id/TPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/TPage"
+        android:name="rc.thesis.learningapp.Fragment.TPage"
+        android:label="fragment_t_page"
+        tools:layout="@layout/fragment_t_page" >
+        <action
+            android:id="@+id/action_TPage_to_SPage"
+            app:destination="@id/SPage" />
+        <action
+            android:id="@+id/action_TPage_to_UPage"
+            app:destination="@id/UPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/UPage"
+        android:name="rc.thesis.learningapp.Fragment.UPage"
+        android:label="fragment_u_page"
+        tools:layout="@layout/fragment_u_page" >
+        <action
+            android:id="@+id/action_UPage_to_TPage"
+            app:destination="@id/TPage" />
+        <action
+            android:id="@+id/action_UPage_to_VPage"
+            app:destination="@id/VPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/VPage"
+        android:name="rc.thesis.learningapp.Fragment.VPage"
+        android:label="fragment_v_page"
+        tools:layout="@layout/fragment_v_page" >
+        <action
+            android:id="@+id/action_VPage_to_UPage"
+            app:destination="@id/UPage" />
+        <action
+            android:id="@+id/action_VPage_to_WPage"
+            app:destination="@id/WPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/WPage"
+        android:name="rc.thesis.learningapp.Fragment.WPage"
+        android:label="fragment_w_page"
+        tools:layout="@layout/fragment_w_page" >
+        <action
+            android:id="@+id/action_WPage_to_VPage"
+            app:destination="@id/VPage" />
+        <action
+            android:id="@+id/action_WPage_to_XPage"
+            app:destination="@id/XPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/XPage"
+        android:name="rc.thesis.learningapp.Fragment.XPage"
+        android:label="fragment_x_page"
+        tools:layout="@layout/fragment_x_page" >
+        <action
+            android:id="@+id/action_XPage_to_WPage"
+            app:destination="@id/WPage" />
+        <action
+            android:id="@+id/action_XPage_to_YPage"
+            app:destination="@id/YPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/YPage"
+        android:name="rc.thesis.learningapp.Fragment.YPage"
+        android:label="fragment_y_page"
+        tools:layout="@layout/fragment_y_page" >
+        <action
+            android:id="@+id/action_YPage_to_XPage"
+            app:destination="@id/XPage" />
+        <action
+            android:id="@+id/action_YPage_to_ZPage"
+            app:destination="@id/ZPage" />
+    </fragment>
+    <fragment
+        android:id="@+id/ZPage"
+        android:name="rc.thesis.learningapp.Fragment.ZPage"
+        android:label="fragment_z_page"
+        tools:layout="@layout/fragment_z_page" >
+        <action
+            android:id="@+id/action_ZPage_to_YPage"
+            app:destination="@id/YPage" />
+    </fragment>
+</navigation>

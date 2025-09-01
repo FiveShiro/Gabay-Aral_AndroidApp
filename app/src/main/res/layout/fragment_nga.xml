@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2.Nga">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:id="@+id/nga"
+            android:layout_width="match_parent"
+            android:layout_height="585dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginBottom="137dp"
+            android:src="@drawable/nga"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_next_nga"
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="44dp"
+            android:text="SUNOD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.854"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nga"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_balik_nga"
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="44dp"
+            android:text="BUMALIK"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.162"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nga"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/speaker_nga"
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:background="@drawable/speaker"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_next_nga"
+            app:layout_constraintHorizontal_bias="0.442"
+            app:layout_constraintStart_toEndOf="@+id/button_balik_nga"
+            app:layout_constraintTop_toBottomOf="@+id/nga"
+            app:layout_constraintVertical_bias="0.555"
+            tools:text="T" />
+
+        <TextView
+            android:id="@+id/txtNGA"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Nga"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtNGE"
+            app:layout_constraintHorizontal_bias="0.76"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/nga" />
+
+        <TextView
+            android:id="@+id/txtNGE"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Nge"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtNGI"
+            app:layout_constraintHorizontal_bias="0.955"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/nga" />
+
+        <TextView
+            android:id="@+id/txtNGI"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Ngi"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtNGO"
+            app:layout_constraintHorizontal_bias="0.934"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/nga" />
+
+        <TextView
+            android:id="@+id/txtNGO"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Ngo"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtNGU"
+            app:layout_constraintHorizontal_bias="0.961"
+            app:layout_constraintStart_toStartOf="@+id/nga"
+            app:layout_constraintTop_toTopOf="@+id/nga" />
+
+        <TextView
+            android:id="@+id/txtNGU"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Ngu"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.85"
+            app:layout_constraintStart_toStartOf="@+id/nga"
+            app:layout_constraintTop_toTopOf="@+id/nga" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph3"
+    app:startDestination="@id/a12">
+
+    <fragment
+        android:id="@+id/a12"
+        android:name="rc.thesis.learningapp.Fragment3.A1"
+        android:label="fragment_a1"
+        tools:layout="@layout/fragment_a1" >
+        <action
+            android:id="@+id/action_a12_to_a22"
+            app:destination="@id/a22" />
+    </fragment>
+    <fragment
+        android:id="@+id/a22"
+        android:name="rc.thesis.learningapp.Fragment3.A2"
+        android:label="fragment_a2"
+        tools:layout="@layout/fragment_a2" >
+        <action
+            android:id="@+id/action_a22_to_a12"
+            app:destination="@id/a12" />
+        <action
+            android:id="@+id/action_a22_to_a32"
+            app:destination="@id/a32" />
+    </fragment>
+    <fragment
+        android:id="@+id/a32"
+        android:name="rc.thesis.learningapp.Fragment3.A3"
+        android:label="fragment_a3"
+        tools:layout="@layout/fragment_a3" >
+        <action
+            android:id="@+id/action_a32_to_a22"
+            app:destination="@id/a22" />
+        <action
+            android:id="@+id/action_a32_to_a42"
+            app:destination="@id/a42" />
+    </fragment>
+    <fragment
+        android:id="@+id/a42"
+        android:name="rc.thesis.learningapp.Fragment3.A4"
+        android:label="fragment_a4"
+        tools:layout="@layout/fragment_a4" >
+        <action
+            android:id="@+id/action_a42_to_a32"
+            app:destination="@id/a32" />
+        <action
+            android:id="@+id/action_a42_to_a52"
+            app:destination="@id/a52" />
+    </fragment>
+    <fragment
+        android:id="@+id/a52"
+        android:name="rc.thesis.learningapp.Fragment3.A5"
+        android:label="fragment_a5"
+        tools:layout="@layout/fragment_a5" >
+        <action
+            android:id="@+id/action_a52_to_a42"
+            app:destination="@id/a42" />
+        <action
+            android:id="@+id/action_a52_to_a62"
+            app:destination="@id/a62" />
+    </fragment>
+    <fragment
+        android:id="@+id/a62"
+        android:name="rc.thesis.learningapp.Fragment3.A6"
+        android:label="fragment_a6"
+        tools:layout="@layout/fragment_a6" >
+        <action
+            android:id="@+id/action_a62_to_a52"
+            app:destination="@id/a52" />
+        <action
+            android:id="@+id/action_a62_to_a72"
+            app:destination="@id/a72" />
+    </fragment>
+    <fragment
+        android:id="@+id/a72"
+        android:name="rc.thesis.learningapp.Fragment3.A7"
+        android:label="fragment_a7"
+        tools:layout="@layout/fragment_a7" >
+        <action
+            android:id="@+id/action_a72_to_a62"
+            app:destination="@id/a62" />
+        <action
+            android:id="@+id/action_a72_to_a82"
+            app:destination="@id/a82" />
+    </fragment>
+    <fragment
+        android:id="@+id/a82"
+        android:name="rc.thesis.learningapp.Fragment3.A8"
+        android:label="fragment_a8"
+        tools:layout="@layout/fragment_a8" >
+        <action
+            android:id="@+id/action_a82_to_a72"
+            app:destination="@id/a72" />
+        <action
+            android:id="@+id/action_a82_to_a92"
+            app:destination="@id/a92" />
+    </fragment>
+    <fragment
+        android:id="@+id/a92"
+        android:name="rc.thesis.learningapp.Fragment3.A9"
+        android:label="fragment_a9"
+        tools:layout="@layout/fragment_a9" >
+        <action
+            android:id="@+id/action_a92_to_a82"
+            app:destination="@id/a82" />
+        <action
+            android:id="@+id/action_a92_to_a102"
+            app:destination="@id/a102" />
+    </fragment>
+    <fragment
+        android:id="@+id/a102"
+        android:name="rc.thesis.learningapp.Fragment3.A10"
+        android:label="fragment_a10"
+        tools:layout="@layout/fragment_a10" >
+        <action
+            android:id="@+id/action_a102_to_a92"
+            app:destination="@id/a92" />
+    </fragment>
+</navigation>

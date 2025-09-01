@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2.Ba">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <ImageView
+            android:id="@+id/ba"
+            android:layout_width="match_parent"
+            android:layout_height="585dp"
+            android:layout_marginTop="63dp"
+            android:layout_marginBottom="137dp"
+            android:src="@drawable/ba"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_next_ba"
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="44dp"
+            android:text="SUNOD"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.854"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ba"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_balik_ba"
+            android:layout_width="110dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="44dp"
+            android:text="BUMALIK"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.162"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ba"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/speaker_ba"
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:background="@drawable/speaker"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_next_ba"
+            app:layout_constraintHorizontal_bias="0.442"
+            app:layout_constraintStart_toEndOf="@+id/button_balik_ba"
+            app:layout_constraintTop_toBottomOf="@+id/ba"
+            app:layout_constraintVertical_bias="0.555"
+            tools:text="T" />
+
+        <TextView
+            android:id="@+id/txtBA"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Ba"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtBE"
+            app:layout_constraintHorizontal_bias="0.671"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ba" />
+
+        <TextView
+            android:id="@+id/txtBE"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Be"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtBI"
+            app:layout_constraintHorizontal_bias="0.812"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ba" />
+
+        <TextView
+            android:id="@+id/txtBI"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Bi"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtBO"
+            app:layout_constraintHorizontal_bias="0.881"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ba" />
+
+        <TextView
+            android:id="@+id/txtBO"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Bo"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/txtBU"
+            app:layout_constraintHorizontal_bias="0.903"
+            app:layout_constraintStart_toStartOf="@+id/ba"
+            app:layout_constraintTop_toTopOf="@+id/ba" />
+
+        <TextView
+            android:id="@+id/txtBU"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="252dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="Bu"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.843"
+            app:layout_constraintStart_toStartOf="@+id/ba"
+            app:layout_constraintTop_toTopOf="@+id/ba" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

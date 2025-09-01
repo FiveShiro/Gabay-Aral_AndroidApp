@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ResultActivity">
+
+    <!-- Main Content (Behind Confetti) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Resulta"
+            android:textColor="@color/black"
+            android:textSize="45sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/iv_trophy"
+            android:layout_width="376dp"
+            android:layout_height="385dp"
+            android:contentDescription="trophy image"
+            android:src="@drawable/ic_trophy"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tv_congratulations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Pagpupugay!!"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="35sp"/>
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            tools:text="Ang iyong puntos ay 1/10" />
+
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@color/design_default_color_primary"
+            android:text="BUMALIK SA LEBEL"/>
+    </LinearLayout>
+
+    <!-- Confetti View (On Top of Everything) -->
+    <nl.dionsegijn.konfetti.xml.KonfettiView
+        android:id="@+id/konfettiView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+</FrameLayout>
